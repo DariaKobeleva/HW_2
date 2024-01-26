@@ -45,6 +45,9 @@
                                 <state key="normal" title="START">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="colorChangeButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="iE2-ls-1Ql"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -59,6 +62,12 @@
                             <constraint firstItem="y8B-Xo-Rqp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="146" id="yzU-IT-2mU"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="changeColorButton" destination="Mrc-pz-waz" id="HA7-oC-4cq"/>
+                        <outlet property="greenView" destination="ot9-xN-esf" id="ke3-mb-g0j"/>
+                        <outlet property="redView" destination="bO1-wz-gbF" id="4hv-Gm-jbV"/>
+                        <outlet property="yellowView" destination="V2Q-hF-1yr" id="efQ-Lx-Jkt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
